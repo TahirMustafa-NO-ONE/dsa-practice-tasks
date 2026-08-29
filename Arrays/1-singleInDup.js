@@ -6,4 +6,4 @@ function singleinDup(arr){
     return single;
 }
 
-console.log(singleinDup("2,4,8,4,3,2,8"));
+console.log(singleinDup([2,4,8,4,3,2,8]));
