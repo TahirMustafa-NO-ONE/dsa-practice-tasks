@@ -1,3 +1,8 @@
+// Given array of integers arr[] of size N, the task is to 
+// find the count of minimum number of deletion operations to 
+// remove minimum and the maximum element from the array. 
+// The elements can only be deleted from either end of the array.
+
 function minimizeDeletion(arr){
     const n = arr.length;
     let minIndex = 0; maxIndex = 0;
