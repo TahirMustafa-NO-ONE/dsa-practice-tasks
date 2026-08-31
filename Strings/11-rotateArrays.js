@@ -1,3 +1,6 @@
+// check if two arrays are rotated and are equal 
+// like ("abcd", "cdab") if "cdab" is rotated it becomes "abcd"
+
 function rotateArrays(s1, s2){
     if(s1.length !== s2.length) return false;
 
