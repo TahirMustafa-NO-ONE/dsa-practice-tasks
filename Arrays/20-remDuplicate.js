@@ -14,3 +14,21 @@ function remDup1(arr){
 }
 
 console.log(remDup1([2,4,2,1,3,5,6,4,3,6,3,2]));
+
+// removing duplicate element completely
+
+function remDup2(arr){
+    const sortArr = arr.sort((a, b) => (a-b));
+    console.log(sortArr);
+    const newArr = [];
+    for(let i=0; i<sortArr.length; i++){
+        if(newArr.length>0 && newArr[newArr.length-1] === sortArr[i]){
+            newArr.pop();
+        } else{
+            newArr.push(sortArr[i]);
+        }
+    }
+    return newArr;
+}
+
+console.log(remDup2([2,4,2,1,3,5,6,4,3,6,3,2]));
