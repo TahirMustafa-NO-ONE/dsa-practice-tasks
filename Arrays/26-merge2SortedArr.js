@@ -1,3 +1,5 @@
+// merged tow sorted array to create one sorted array
+
 function merge2sortedArray(arr1, arr2){
     let merged = [];
     const n = arr1.length;
