@@ -22,4 +22,4 @@ function findPivot(arr){
     return -1;
 }
 
-console.log(findPivot([2,4,3,5,3,12,2]));
+console.log(findPivot([2,4,3,5,3,12,2])); // return [4, 3]
